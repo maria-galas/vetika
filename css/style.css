@@ -1,3 +1,14 @@
+/*bootstrap hack :)*/
+.container{
+    max-width: 972px;
+}
+
+/*logo*/
+.logo-container{
+    padding: 15px 0px;
+}
+/*logo end*/
+
 /*menu*/
 .menu{
     background: #575656;
@@ -26,3 +37,21 @@
     border-right: 1px solid #757575;
 }
 /*menu end*/
+
+/*slider*/
+.slider img{
+    width: 100%;
+}
+.slider .slider-description{
+    background: rgba(60, 60, 60, 0.6);
+    padding: 10px 0px 13px 18px;
+    position: relative;
+    top: -45px;
+}
+.slider h3{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*slider end*/
