@@ -1,7 +1,13 @@
 /*bootstrap hack :)*/
 .container{
     max-width: 972px;
+    background: #fff;
 }
+/*common*/
+.main-background{
+    background: #F1F7F7;
+}
+
 
 /*logo*/
 .logo-container{
@@ -64,6 +70,9 @@
 /*text-container end*/
 
 /*right-column*/
+.right-column{
+    padding-right: 22px;
+}
 .right-column .news-container{
     border: 1px solid #dfdfdf;
     padding: 20px 32px 22px 22px;
@@ -96,6 +105,28 @@
     display: inline;
     padding: 6px 8px 3px 8px;
 }
+.right-column .small-slider{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.right-column .small-slider:hover{
+    cursor: pointer;
+}
+.right-column .small-slider img{
+    width: 100%;
+}
+.right-column .small-slider .small-slider-description{
+    background: #95A6B0;
+    margin-top: -20px;
+    padding: 10px 0 5px 18px;
+}
+
+.right-column .small-slider .small-slider-description h3{
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
 /*right-column end*/
 
 /*text-container*/
